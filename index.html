@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;900&family=Tenor+Sans&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+<!--  Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- favicon -->
+
+<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="./style.css">
+
+    <title>PropGrow</title>
+</head>
+<body>
+   <!-- <header>
+    <div class="container">
+        <nav class="navbar flex">
+            <div class="logo">
+                <img src=".//img/brand_logo_mobile.svg" alt="logo">
+            </div>
+            <a class="call-icon" href="#">
+                <img src="./img/call_icon.svg" alt="call-icon">
+            </a>
+            <ul class="nav-links flex">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Projects+</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a class='btn-accent' href="#">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </nav>
+    </div>
+   </header> -->
+   <nav>
+    <div class="brand-logo"><img src="./img/brand_logo_mobile.svg" alt=""></div>
+
+    <label for="drop" class="toggle">Menu</label>
+    <input type="checkbox" id="drop" />
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle">Projects+</label>
+                <a href="#">Projects</a>
+                <input type="checkbox" id="drop-1"/>
+                <ul>
+                    <li><a href="#">Residential</a></li>
+                    <li><a href="#">Commerci</a></li>
+                </ul> 
+
+            </li>
+            <li>
+
+            <!-- First Tier Drop Down -->
+            <label for="drop-2" class="toggle">Services </label>
+            <a href="#">Services</a>
+            <input type="checkbox" id="drop-2"/>
+            <ul>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Links</a></li>
+            </ul>
+            </li>
+            <li><a href="./about.html">About</a></li>
+            <li><a class ="nav-btn" href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+   <!-- ++++++++Hero Section+++++++++++++ -->
+
+   <section class="hero-section mobile-hero-section">
+    <!-- <div id="overlay"></div> -->
+        <div class="container">
+            <div>
+                <h1 class="hero-title">FIND REAL ESTATE
+                    THAT SUITS YOU.</h1>
+            </div>
+            <div class="property-links" id="PropertyLinks">
+                <a href="#"class="link active">Projects</a>
+                <a href="#" class="link">Buy</a>
+                <a href="#" class="link">Developers</a>
+                <a href="#" class="link">Agents</a>
+            </div>
+              <form class="form-flex">
+                    <input type="text" class="search-input" placeholder="Find the property">
+                        <button class='btn-flex'type="submit">Search <img src="./img/pointer.svg" alt="icon">
+                        </button>
+                </form>
+        </div>    
+   </section>
+
+   <!-- +++++Featured Section+++++++ -->
+   <section class="featured-sec">
+    <div class="container residential">
+        <h1 class="text-center">Hot Selling Porjects</h1>
+        <div class="tagline">
+            <div class="bar"></div>
+            <small>Popular</small>
+        </div>
+        <h2>Featured Residential</h2>
+        <div class="split">
+            <div>
+                <div>
+                   <a href="https://m3mgolf-estate2.in/">
+                    <img src="./img/golfestate2.jpg" alt="img">
+                </a>
+                </div>
+               <div>
+                    <p>
+                        Project name
+                    </p>
+                    <h3>M3M golf Estate 2</h3>
+                    <div class="long-bar"></div>
+                    <p>
+                        Address
+                    </p>
+                    <h3>
+                        Sector 79, SPR Road, Gurgaon
+                    </h3>
+                    <div class="long-bar"></div>
+                </div>
+                <p>Price</p>
+                <a href="" class="know-more">Know more</a>
+            </div>
+            <div>
+               <a href="#">
+                <img src="./img/dlf.jpg  " alt="dlf image">
+               </a>
+                <div>
+                    <p>
+                        Project name
+                    </p>
+                    <h3>
+                        DLF Gardencity Enclave Phase 2 
+                    </h3>
+                    <div class="long-bar"></div>
+                    <p>
+                        Address
+                    </p>
+                    <h3>
+                       Sector 93, Gurgaon
+                    </h3>
+                    <div class="long-bar"></div>
+                </div>
+                <p>Price</p>
+                <a href="" class="know-more">Know more</a>
+            </div>
+
+            <!-- card3-->
+            <div>
+                <a href="#">
+                    <img src="./img/M3M-Antalya-Featured-image.jpg" alt="">
+                </a>
+                <div>
+                    <p>
+                        Project name
+                    </p>
+                    <h3>M3M Antalya Hills 79 </h3>
+                    <div class="long-bar"></div>
+                    <p>
+                        Address
+                    </p>
+                    <h3>
+                        Sector 79, Gurgaon
+                    </h3>
+                    <div class="long-bar"></div>
+                </div>
+                <p>Price</p>
+                <a href="" class="know-more">Know more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Commercial -->
+    <div class="container commercial">
+        <div class="tagline">
+            <div class="bar"></div>
+            <small>Popular</small>
+        </div>
+        <h2>Featured Commercial</h2>
+        <div class="split">
+            <div>
+                <div>
+                    <a href="#"><img src="./img/M3M Capital Walk 113 Commercial (1).jpg" alt=""></a>
+                </div>
+               <div>
+                    <p>
+                        Project name
+                    </p>
+                    <h3>M3m Capital walk 113</h3>
+                    <div class="long-bar"></div>
+                    <p>
+                        Address
+                    </p>
+                    <h3>
+                        Sector 113, Gurgaon
+                    </h3>
+                    <div class="long-bar"></div>
+                </div>
+                <p>Price</p>
+                <a href="" class="know-more">Know more</a>
+            </div>
+            <!-- card 1 -->
+            <div>
+                <a href="https://parasgurgaon.in/"><img src="./img/sco.jpeg" alt="paras image"></a>
+                <div>
+                    <p>
+                        Project Name
+                    </p>
+                    <h3>Paras arcade 114</h3>
+                    <div class="long-bar"></div>
+                    <p>
+                        Address
+                    </p>
+                    <h3>
+                        Sector 114, Gurgaon
+                    </h3>
+                    <div class="long-bar"></div>
+                </div>
+                <p>Price</p>
+                <a href="" class="know-more">Know more</a>
+            </div>
+
+            <!-- card2 -->
+            <div>
+                <a href="#"><img src="./img/ifc-min.jpg" alt="m3m-image"></a>
+                <div>
+                    <p>
+                        Project name
+                    </p>
+                    <h3>M3M golf Estat2</h3>
+                    <div class="long-bar"></div>
+                    <p>
+                        Address
+                    </p>
+                    <h3>
+                        Gurgaon, sector 65, near Emerald Plaza
+                    </h3>
+                    <div class="long-bar"></div>
+                </div>
+                <p>Price</p>
+                <a href="" class="know-more">Know more</a>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- ++++++Services_+++++++++ -->
+
+   <section class="services">
+        <div class="container">
+                <h1 class="text-center">Services</h1>
+             <div class="split">
+                <div class="showcase">
+                    <div>
+                        <img src="./img/showcase_icon-1.svg" alt="icon_1">
+                    
+                    </div>
+                    <div>
+                            <h3>Investment Planning</h3>
+                        <p>
+                            I'm a paragraph. Click here to add your own text and edit me. It's easy.      
+                        </p>
+                    </div>
+                </div>
+                <div class="showcase">
+                    <div>
+                        <img src="./img/showcase_icon-2.svg" alt="icon_1">
+                    
+                    </div>
+                    <div>
+                            <h3>Real Estate Guidance</h3>
+                        <p>
+                            I'm a paragraph. Click here to add your own text and edit me. It's easy.      
+                        </p>
+                    </div>
+                </div>
+                <div class="showcase">
+                    <div>
+                        <img src="./img/showcase_icon_3.svg" alt="icon_1">
+                    
+                    </div>
+                    <div>
+                            <h3>Property Tax Valuation</h3>
+                        <p>
+                            I'm a paragraph. Click here to add your own text and edit me. It's easy.      
+                        </p>
+                    </div>
+                </div>
+              </div>  
+          </div>
+   </section>
+   <!-- +++++++++Why us Sction  -->
+    <section class="why-us">
+        <h1>Why Work With Us?</h1>
+        <div class="split">
+            <div>
+                <h2>Exclusive</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, culpa.</p>
+            </div>
+            <div>
+                <h2 class="red">Available</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, numquam.</p>
+            </div>
+            <div>
+                <h2 class="violet">Flexible</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, inventore.</p>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Testimonial Section++++++++++++ -->
+    <section class="testimonial-section">
+        <div class="container">
+            <h1>What My Clients Say</h1>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                          I don't know what will.This was the very best explanation of frameworks for brginners 
+                          that I've ever seen.
+                      </p>
+                      <img src="./img/card1_img.png">
+                      <div id="image-caption">Nick Doe</div>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                        I don't know what will.This was the very best explanation of frameworks for brginners 
+                        that I've ever seen.</p>
+                        <img src="./img/card2_img.png" class="img-fluid">
+                        <div id="image-caption">Cromption Greves</div>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code,
+                        I don't know what will.This was the very best explanation of frameworks for brginners 
+                        that I've ever seen.</p>
+                        <img src="./img/card3_img.png" class="img-fluid">
+                        <div id="image-caption">Harry Mon</div>
+                    </div>   
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <i class='fas fa-arrow-left'></i>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <i class='fas fa-arrow-right'></i>
+                </a>
+              </div>
+        </div>
+    </section>
+
+    <!-- +++++++++++About Us Section+++++++++++++++++++ -->
+    <section class="about-us">
+        <div class="container about-container">
+            <div>
+                <h1>About Us</h1>
+                <p>PropGrow is India's first real estate investment consulting firm with honest, transparent & hassle-free end to end real estate service. Our Salient Features: Experienced Consultants - Their licensed real estate consultants work on salary instead of commission, ensuring you get a full-service, pressure-free experience; No Brokerage - We do not charge our customers. Our business model is similar to the usual aggregator business model. We work with only A Grade projects/builders as a strategic consultant and list the project on our platform after due diligence by our finance and legal team and in return take a part of project’s inventory beforehand creating a win-win situation for all the parties. As builders as they get Bulk-Booking from us and buyers get subsidised rates from us as  compared to market rates; Best price guaranteed - Lowest price guaranteed. But if you find a lower price (from the developer) for the same property you want to buy, tell us and we will match it with additional benefits too. Cutting edge market research - With a plethora of options to choose from, a homebuyer or investor would like. You may find it impossible to distinguish one property from other and may end up making a wrong choice. They understand your dilemma, hence their team have surveyed, ranked & rated properties on 20+ parameters.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact-section">
+        <div class="container">
+            <form>
+                <div>
+                    <h1>Leave a Message</h1>
+                    <label for="full name">Full name</label>
+                    <input type="text"required>
+                </div>
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel"required>
+                </div>
+                <div>
+                    <label for="Message">Type Your Messages Here</label>
+                    <input type="text">
+                </div>
+                <button type="submit"class='cta-btn'>Submit</button>
+            </form>
+            <div class="email-container">
+                <h1>Email/Call Me</h1>
+                <p>Tel: 931-144-4719</p>
+                <p>Email: propgrowofficial@gmail.com</p>
+                <p>Address:  Emaar Emerald Plaza, Sector 65, Gurugram, Haryana</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><img src="./img/youtube_icon.svg" alt="">
+                </a>
+                <a href="#"><img src="./img/twitter_icon.svg" alt="">
+                </a>
+                <a href="#"><img src="./img/facebook_icon.svg" alt="icon">
+                </a>
+            </div>
+        </div>
+    </section>
+        <!--  Bootstrap js-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="./app.js"></script>
+</body>
+</html>
