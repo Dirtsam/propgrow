@@ -53,10 +53,16 @@ img{
 
 .brand-logo{
     display: flex;
-    width: 200px;
+    align-items: center;
+    text-align: center;
+    width: 250px;
     height:auto;    
-    margin-bottom: 2rem;
     display: inline-block;
+}
+
+@media (min-width:600px) {
+    .brand-logo{
+        margin-bottom: 2rem;    }
 }
 .brand-logo img{
     width: 100%;
@@ -77,7 +83,7 @@ body{
 
 
 h3 a {
-	color: #FFF;
+	color: #fff;
 }
 
 nav a {
@@ -92,10 +98,16 @@ nav a {
 
 /* Giving a background-color to the nav container. */
 nav { 
-    padding: 4vh 1em;
     background-color: #fff;
     width: min(90%, 1150px);
     margin: 0 auto;
+    padding: 2vh 1em;
+}
+
+@media (min-width:600px) {
+    nav{
+    padding: 4vh 1em;
+    }
 }
 
     
@@ -327,9 +339,9 @@ li > a:only-child:after { content: ''; }
 
 .hero-title{
     font-family: 'Mulish';
-    font-size: 2.875rem;
+    font-size: 2.25rem;
     font-weight: 900;
-    line-height: 1;
+    line-height: 1.2;
     margin-bottom: 1.25rem;
     color: #fff;
 }
@@ -372,26 +384,35 @@ li > a:only-child:after { content: ''; }
 }
 
 
-/* container */
 .property-links{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: min(100%, 400px);
-    margin:2rem auto;
-    background-color: transparent;
 }
-
 .property-links .link{
-    padding: 1rem 1.5rem;
+    font-size: 12px;
     color: #fff;
     text-transform: uppercase;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
 }
 
 .property-links .active, .link:hover {
     background-color: #cf003f;
     color: #fff;
   }
+/* container */
+@media (min-width:400px) {
+        .property-links{
+        width: min(100%, 400px);
+        margin:1rem auto;
+        background-color: transparent;
+    }
+
+    .property-links .link{
+    padding: 1rem 1.5rem;
+    }
+}
 
 /* ++++++FEATURED SECTION++++++++ */
 
@@ -817,7 +838,6 @@ i{
     
     .form-flex{
         flex-direction: row;
-        justify-content: space-around;
         margin: auto;
     }
     
@@ -850,4 +870,14 @@ i{
         font-size: 1.5rem;
     }
     
+}
+
+footer{
+    background-color: #0F2C4B;
+    color: #fff;
+    padding: 2vh 1em;
+    line-height: 1;
+}
+footer small{
+    font-weight: 300;
 }

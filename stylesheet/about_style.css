@@ -6,8 +6,9 @@
 
 img{
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
+
 .brand-logo{
     display: inline-block;
     width: 250px;
@@ -19,11 +20,14 @@ h3 a {
 	color: #FFF;
 }
 
+header{
+    box-shadow: 0 5px  15px 15px rgba(0, 0, 0, 0.1);
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 nav a {
@@ -236,3 +240,54 @@ li > a:only-child:after { content: ''; }
 	}
 
 }
+
+
+
+/* Image section */
+
+.img-section{
+    position: relative;
+    z-index: -1;
+}
+
+/* +++++++++++++About section++++++++++++++++ */
+
+.about-us{
+    padding: 15vh 1em;
+    font-size: 14px;
+    color: #0F2C4B;
+}
+
+.split{
+    display: flex;
+    flex-direction: column;
+}
+
+.split div{
+    margin-bottom: 1.5rem;
+}
+.split h1{
+    font-size: 2rem;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: normal;
+    color: #0F2C4B;
+    margin-bottom: 1rem;
+}
+.split p{
+    line-height: 1.2;
+}
+
+.split div img{
+    margin-bottom: 1rem;
+}
+
+.split> .right div::before {
+    content:"";
+   position: absolute;
+    background-color: #000;
+    width: 3px;
+    height: 90%;
+    bottom: 0;
+    left: -7px;
+  }
+  
